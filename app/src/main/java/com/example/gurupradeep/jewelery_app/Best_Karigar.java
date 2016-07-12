@@ -84,6 +84,7 @@ public class Best_Karigar extends Fragment {
                 //   args = new Bundle();
                 //    Toast.makeText(getActivity(), Integer.toString(position), Toast.LENGTH_SHORT).show();
                 //  args.putString("CID", phone_no.get(position));
+
                 //      fr.setArguments(args);
                 mFragmentTransaction.replace(R.id.Placeholder_from_customer_order, fr);
                 mFragmentTransaction.addToBackStack(null);
