@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employee$Monthly_report"
+    android:layout_marginTop="10dp">
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/Monthly_barchart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+
+</RelativeLayout>

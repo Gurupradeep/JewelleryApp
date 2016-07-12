@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gurupradeep.jewelery_app.MainActivity">
+    <item
+        android:id="@+id/notifications"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/notification"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/search"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employee$Weekly_details">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Week1"
+            android:id="@+id/week1"
+            />
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="week2"
+            android:id="@+id/Week2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Week3"
+            android:id="@+id/week3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Week  4"
+            android:id="@+id/week4" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Week 5"
+            android:id="@+id/week5" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Revenue : 1000000"
+        android:id="@+id/Revenue_of_week"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Revenue Details"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/Revenue_of_week"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/week_revenue_chart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="135dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Profit: 1000000"
+        android:id="@+id/weekly_profit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="385dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Profit Details"
+        android:id="@+id/profit_details"
+        android:layout_marginTop="410dp"/>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/weekly_profit_chart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="485dp"
+        />
+
+</RelativeLayout>

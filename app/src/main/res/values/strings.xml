@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Jewelery_app</string>
+    <string name="action_settings">Settings</string>
+    <string name="Signup__link">No Account yet? Create One</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dummy">Dummy</string>
+</resources>

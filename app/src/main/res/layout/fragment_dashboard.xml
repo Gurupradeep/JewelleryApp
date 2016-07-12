@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employee$ChatBubbleActivity$dashboard"
+    android:id="@+id/Dashboard_layout"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/dashboard_relative">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#2d89ef"
+        android:text="Reports"
+        android:id="@+id/reports"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:id="@+id/orders"
+        android:layout_below="@+id/reports"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#2d89ef"
+        android:width = "200dp"
+        android:height="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gumasta"
+        android:id="@+id/gumasta"
+        android:background="#2d89ef"
+        android:layout_below="@+id/reports"
+        android:layout_toRightOf="@+id/orders"
+        android:layout_toEndOf="@+id/orders"
+        android:width = "200dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+
+        android:height="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support"
+        android:id="@+id/support"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/orders"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width = "400dp"
+        android:background="#2d89ef"
+        android:height="60dp"/>
+
+    <Button
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:background="#2d89ef"
+        android:id="@+id/button6"
+        android:layout_below="@+id/support"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width = "133dp"
+        android:height="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chit funds"
+        android:id="@+id/chit_funds"
+        android:layout_below="@+id/support"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_toEndOf="@+id/button6"
+        android:width = "133dp"
+        android:layout_marginRight="5dp"
+       android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#2d89ef"
+        android:height="100dp"/>
+
+    <Button
+        android:background="#2d89ef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loyality"
+        android:id="@+id/loyality"
+        android:layout_below="@+id/support"
+        android:layout_toRightOf="@+id/chit_funds"
+        android:layout_toEndOf="@+id/chit_funds"
+        android:width = "134dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:height="100dp"/>
+
+    <Button
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analytics"
+        android:id="@+id/analytics"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:width = "400dp"
+        android:background="#2d89ef"
+        android:height="100dp"/>
+     </RelativeLayout>
+</FrameLayout>

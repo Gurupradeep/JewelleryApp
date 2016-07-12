@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Employee$Montly_details1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Jan"
+            android:id="@+id/month1"
+            />
+
+        <Button
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Feb"
+            android:id="@+id/month2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Mar"
+            android:id="@+id/month3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Apr"
+            android:id="@+id/month4" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="May"
+            android:id="@+id/month5" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Revenue : 1000000"
+        android:id="@+id/Revenue_of_month"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Revenue Details"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/Revenue_of_month"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/revenue_chart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="135dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Profit: 1000000"
+        android:id="@+id/monthly_profit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="385dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Profit Details"
+        android:id="@+id/profit_details"
+        android:layout_marginTop="410dp"/>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/profit_chart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="485dp"
+        />
+
+</RelativeLayout>

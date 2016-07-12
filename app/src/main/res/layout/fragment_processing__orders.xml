@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gurupradeep.jewelery_app.New_orders"
+    android:background="#FFF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Dispatched"
+        android:id="@+id/Dispatched_orders_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="To BE DELIVERED"
+        android:id="@+id/to_be_delievered_button"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Dispatched_orders_button"
+        android:layout_toEndOf="@+id/Dispatched_orders_button" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Placeholder2"></FrameLayout>
+</RelativeLayout>

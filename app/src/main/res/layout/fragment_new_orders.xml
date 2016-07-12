@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gurupradeep.jewelery_app.New_orders"
+    android:background="#FFF">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="From Customer"
+        android:id="@+id/From_customer_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Requested"
+        android:id="@+id/request_order_button"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/From_customer_button"
+        android:layout_toEndOf="@+id/From_customer_button" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/Placeholder1"></FrameLayout>
+</RelativeLayout>
