@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -41,6 +43,11 @@ public class Dispatched_orders extends Fragment {
     Login_database_handler login_database_handler;
     String query;
     SQLiteDatabase db;
+    FragmentManager mFragmentManager;
+    FragmentTransaction mFragmentTransaction;
+    Fragment fr;
+    Bundle args;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -81,12 +88,26 @@ public class Dispatched_orders extends Fragment {
 
         adapter = new Dispatched_Order_adapter(getContext(),temp);
         r.setAdapter(adapter);
+        r.addOnItemTouchListener(new Dispatched_Order_adapter.RecyclerTouchListener(getActivity().getApplicationContext(), r, new Dispatched_Order_adapter.ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+                mFragmentManager = getFragmentManager();
+                mFragmentTransaction = mFragmentManager.beginTransaction();
+                fr = new Dispatched_order_place_layout();
+                //   args = new Bundle();
+                //    Toast.makeText(getActivity(), Integer.toString(position), Toast.LENGTH_SHORT).show();
+                //  args.putString("CID", phone_no.get(position));
+                //      fr.setArguments(args);
+                mFragmentTransaction.replace(R.id.dispatched_orders_layout, fr);
+                mFragmentTransaction.addToBackStack(null);
+                mFragmentTransaction.commit();
+            }
 
+            @Override
+            public void onLongClick(View view, int position) {
 
-
-
-
-
+            }
+        }));
         return v;
     }
 
