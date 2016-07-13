@@ -63,7 +63,6 @@ public class Requested_karigar_quotes_adapter extends RecyclerView.Adapter<Reque
 
         super.onAttachedToRecyclerView(recyclerView);
     }
-
     public interface ClickListener {
         void onClick(View view, int position);
 

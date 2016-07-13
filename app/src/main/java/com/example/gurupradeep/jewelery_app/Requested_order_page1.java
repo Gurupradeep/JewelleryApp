@@ -46,19 +46,13 @@ public class Requested_order_page1 extends Fragment {
         temp.add(new Requested_Karigar_quotes("Sandeep","18%","17th August","Nothing"));
         adapter = new Requested_karigar_quotes_adapter(getContext(), temp);
         r.setAdapter(adapter);
+        mFragmentManager = getActivity().getSupportFragmentManager();
         r.addOnItemTouchListener(new Requested_karigar_quotes_adapter.RecyclerTouchListener(getActivity().getApplicationContext(), r, new Requested_karigar_quotes_adapter.ClickListener() {
             @Override
             public void onClick(View view, int position) {
-               /* mFragmentManager = getFragmentManager();
                 mFragmentTransaction = mFragmentManager.beginTransaction();
-                fr =  new Emplyoee2();
-                args = new Bundle();
-                //    Toast.makeText(getActivity(), Integer.toString(position), Toast.LENGTH_SHORT).show();
-                args.putString("CID", phone_no.get(position));
-                fr.setArguments(args);
-                mFragmentTransaction.replace(R.id.Placeholder13, fr);
-                mFragmentTransaction.addToBackStack(null);
-                mFragmentTransaction.commit();*/
+                mFragmentTransaction.replace(R.id.Placeholder_requested_order, new Requested_Order_page2());
+                mFragmentTransaction.commit();
             }
 
             @Override
