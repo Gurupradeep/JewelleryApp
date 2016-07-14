@@ -1,31 +1,12 @@
 package com.example.gurupradeep.jewelery_app.Simple_Constructors;
 
-import android.content.Context;
-import android.database.DataSetObserver;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.view.Gravity;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.TextView;
 
-import com.example.gurupradeep.jewelery_app.Normal_classes.ChatMessage;
 import com.example.gurupradeep.jewelery_app.R;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Guru Pradeep on 31-05-2016.

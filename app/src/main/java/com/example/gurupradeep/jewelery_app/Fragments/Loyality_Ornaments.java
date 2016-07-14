@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 
 import com.example.gurupradeep.jewelery_app.Databases.Login_database_handler;
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.Sceme_Ornaments;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;

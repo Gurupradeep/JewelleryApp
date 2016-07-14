@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.loyality_scheme;
+import com.example.gurupradeep.jewelery_app.Simple_Constructors.loyality_scheme;
 
 import java.util.List;
 

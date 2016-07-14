@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gurupradeep.jewelery_app.New_orders"
+    tools:context=".Fragments.New_orders"
     android:background="#FFF">
 
     <!-- TODO: Update blank fragment layout -->

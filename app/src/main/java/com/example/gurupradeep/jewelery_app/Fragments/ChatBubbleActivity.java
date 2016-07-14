@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.gurupradeep.jewelery_app.Adapters.ChatArrayAdapter;
-import com.example.gurupradeep.jewelery_app.Normal_classes.ChatMessage;
+import com.example.gurupradeep.jewelery_app.Simple_Constructors.ChatMessage;
 import com.example.gurupradeep.jewelery_app.R;
 
 /**

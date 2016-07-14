@@ -1,7 +1,5 @@
 package com.example.gurupradeep.jewelery_app.Databases;
 
-import com.example.gurupradeep.jewelery_app.New_orders;
-
 /**
  * Created by Guru Pradeep on 16-06-2016.
  */

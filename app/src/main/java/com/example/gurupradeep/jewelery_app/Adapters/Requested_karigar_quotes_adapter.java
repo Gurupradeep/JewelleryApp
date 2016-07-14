@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.Requested_Karigar_quotes;
+import com.example.gurupradeep.jewelery_app.Simple_Constructors.Requested_Karigar_quotes;
 
 import java.util.List;
 

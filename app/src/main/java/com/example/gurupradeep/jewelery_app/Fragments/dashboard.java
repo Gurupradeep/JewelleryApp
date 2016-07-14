@@ -16,10 +16,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.gurupradeep.jewelery_app.Loyality_Tab;
-import com.example.gurupradeep.jewelery_app.Orders;
+import com.example.gurupradeep.jewelery_app.Tabs.Loyality_Tab;
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.Report;
+import com.example.gurupradeep.jewelery_app.Tabs.Report;
 import com.example.gurupradeep.jewelery_app.Tabs.Chit_funds_tab;
 
 /**

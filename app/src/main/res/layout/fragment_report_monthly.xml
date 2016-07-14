@@ -8,7 +8,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gurupradeep.jewelery_app.Report_monthly">
+    tools:context=".Fragments.Report_monthly">
 
     <!-- TODO: Update blank fragment layout -->
     <FrameLayout

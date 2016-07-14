@@ -9,9 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.gurupradeep.jewelery_app.Fragments.Employee_Statistics;
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.Recycler_employee;
 
 
 /**

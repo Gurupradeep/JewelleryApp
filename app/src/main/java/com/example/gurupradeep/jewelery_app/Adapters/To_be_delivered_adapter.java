@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.gurupradeep.jewelery_app.R;
-import com.example.gurupradeep.jewelery_app.to_be_delivered_class;
+import com.example.gurupradeep.jewelery_app.Simple_Constructors.to_be_delivered_class;
 
 import java.util.List;
 
