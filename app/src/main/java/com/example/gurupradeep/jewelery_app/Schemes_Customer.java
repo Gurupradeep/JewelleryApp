@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.gurupradeep.jewelery_app.Adapters.Loyality_customers_adapter;
 import com.example.gurupradeep.jewelery_app.Databases.Login_database_handler;
 
 import java.util.ArrayList;

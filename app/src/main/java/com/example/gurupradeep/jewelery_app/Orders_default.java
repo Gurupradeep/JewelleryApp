@@ -12,14 +12,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.gurupradeep.jewelery_app.Databases.Login_database_handler;
+import com.example.gurupradeep.jewelery_app.Fragments.Best_Karigar;
 import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.PieData;
-import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;

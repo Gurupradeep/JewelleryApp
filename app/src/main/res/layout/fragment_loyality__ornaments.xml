@@ -3,7 +3,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/loyality_ornnaments_layout"
-        tools:context="com.example.gurupradeep.jewelery_app.Loyality_customers"
+        tools:context=".Fragments.Loyality_customers"
         >
         <com.github.mikephil.charting.charts.BarChart
             android:id="@+id/chart6"

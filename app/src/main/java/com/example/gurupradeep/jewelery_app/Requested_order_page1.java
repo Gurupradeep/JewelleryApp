@@ -11,7 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.gurupradeep.jewelery_app.Adapters.Requested_karigar_quotes_adapter;
+
 import java.util.ArrayList;
+
 
 
 /**

@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFF"
-        tools:context="com.example.gurupradeep.jewelery_app.From_customer_order_page2">
+        tools:context=".Fragments.From_customer_order_page2">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

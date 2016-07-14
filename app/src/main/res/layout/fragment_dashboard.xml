@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Employee$ChatBubbleActivity$dashboard"
+    tools:context=".Simple_Constructors.Employee$ChatBubbleActivity$dashboard"
     android:id="@+id/Dashboard_layout"
     android:background="#fff">
 

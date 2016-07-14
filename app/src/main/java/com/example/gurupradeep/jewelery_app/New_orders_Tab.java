@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.gurupradeep.jewelery_app.Fragments.From_customer;
+
 
 /**
  * A simple {@link Fragment} subclass.

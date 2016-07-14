@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFF"
-    tools:context="com.example.gurupradeep.jewelery_app.Chit_funds_managing_chit1">
+    tools:context=".Fragments.Chit_funds_managing_chit1">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"

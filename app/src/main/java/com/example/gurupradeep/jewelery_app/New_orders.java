@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.gurupradeep.jewelery_app.Fragments.From_customer;
+
 
 /**
  * A simple {@link Fragment} subclass.

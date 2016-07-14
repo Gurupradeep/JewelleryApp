@@ -1,7 +1,5 @@
 package com.example.gurupradeep.jewelery_app.Databases;
 
-import com.example.gurupradeep.jewelery_app.Loyality_Ornaments;
-
 /**
  * Created by Guru Pradeep on 15-06-2016.
  */

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Employee$Dummy"
+    tools:context=".Simple_Constructors.Employee$Dummy"
     android:id="@+id/Dummy_layout">
 
     <!-- TODO: Update blank fragment layout -->

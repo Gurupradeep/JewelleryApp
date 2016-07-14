@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gurupradeep.jewelery_app.From_customer_place_layout">
+    tools:context=".Fragments.From_customer_place_layout">
 
     <FrameLayout
         android:layout_width="match_parent"

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF"
-    tools:context="com.example.gurupradeep.jewelery_app.Emplyoee2">
+    tools:context=".Fragments.Emplyoee2">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
